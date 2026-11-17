@@ -1,0 +1,2 @@
+experiment,training_rows,evaluation_rows,excluded_affected_rows,MAE,MSE,RMSE,R2,training_time_seconds
+clean_data_sensitivity,699293,230814,183,9.503377506432274,847.349088991324,29.109261223729536,0.8627266375027908,22.151601314544678

@@ -1,0 +1,37 @@
+
+# Large datasets - keep locally
+data/raw/
+data/interim/
+data/processed/
+
+# Databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Python cache and environments
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Jupyter temporary files
+.ipynb_checkpoints/
+
+# Secrets
+.env
+.env.*
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+# Large audit and prediction exports
+outputs/tables/full_arrival_delay_quality_audit.csv
+outputs/tables/final_reserved_group_predictions.csv
+
+# Intermediate clustering samples
+outputs/tables/clustered_training_sample.csv
+outputs/tables/delay_focused_clustered_sample.csv
